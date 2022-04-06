@@ -27,11 +27,11 @@ namespace ConsoleApp1
                                                              //int we should convert it to a int. And ToInt32 is a function, so we need to put it in bracket.
             Console.Write("How many money you have: ");
             need_to_earn = Convert.ToInt32(Console.ReadLine());
-            if (num01 >= 18)
+            if (num01 >= 18) //Condition statement 
             {
                 if (need_to_earn >= cash)
                 {
-                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.ForegroundColor = ConsoleColor.Green; //Change the text color to Green when it meet the condition and output a message.
                     Console.WriteLine("Wlecome!");
                 }
                 else
